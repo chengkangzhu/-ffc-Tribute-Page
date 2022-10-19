@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+#main {
+  width: 99vw;
+  margin: 30px auto;
+  background-color: #EEEEEE;
+  border-radius: 10px;
+  padding: 50px 15px;
+  font-family: sans-serif;
+  text-align: center;
+  color: #545454;
+}
+
+#title {
+  font-size: 4rem;
+  font-weight: 600;
+  color: rgb(61, 61, 61);
+  margin-bottom: 20px;
+}
+
+#description {
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+#img-wrapper {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#img-wrapper #image {
+  max-width: 100%;
+  display: block;
+}
+#img-wrapper #img-caption {
+  font-size: 1.6rem;
+  padding: 20px;
+}
+
+#tribute-info {
+  margin: 50px auto;
+  padding: 0 20px 0;
+  max-width: 550px;
+}
+#tribute-info #timeline {
+  font-size: 1.8rem;
+  color: rgb(61, 61, 61);
+  margin-bottom: 30px;
+  font-weight: 600px;
+}
+#tribute-info ul li {
+  font-size: 1.6rem;
+  text-align: left;
+  line-height: 25px;
+  padding: 10px;
+}
+#tribute-info ul li .year {
+  font-weight: 700;
+  color: rgb(61, 61, 61);
+}
+#tribute-info #quotes {
+  font-style: italic;
+  text-align: left;
+}
+#tribute-info #quotes #quote, #tribute-info #quotes #quoter {
+  margin: 20px 0 20px;
+  display: block;
+  font-size: 1.6rem;
+}
+
+#read-more {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+#read-more a {
+  color: #5d89d4;
+}/*# sourceMappingURL=styles.css.map */
